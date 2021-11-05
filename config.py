@@ -3,7 +3,7 @@ import os
 # for uploading new files from PC
 # MY_ID = int('my_id')
 # DB_FILENAME = 'botuploads.db'
-TOKEN = '1987109772:AAFACoho6niBVGJSEF7YZfXu3jRFdWiGV6c'
+# TOKEN = 'token'
 
 # for launching bot itself
 # TOKEN = os.getenv('BOT_TOKEN')

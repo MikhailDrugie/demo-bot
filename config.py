@@ -6,7 +6,7 @@ import os
 # TOKEN = 'token'
 
 # for launching bot itself
-# TOKEN = os.getenv('BOT_TOKEN')
+TOKEN = os.getenv('BOT_TOKEN')
 if not TOKEN:
     print('You have forgotten to set BOT_TOKEN')
     quit()

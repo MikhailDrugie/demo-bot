@@ -1,18 +1,18 @@
-start = 'Приветствую вас на информационной панели бассейна \"Желтый ручей\"!\n' \
-        'Чтобы узнать функционал, наберите или нажмите на /help.'
+start = 'Welcome to the information panel of the \"Желтый ручей\" pool!\n' \
+        'Type or click on /help to see bot\'s functionality.'
 
-help_ = 'Что вы хотите узнать?'
+help_ = 'What do you want to know?'
 
-about_us = 'Я/Мы Жёлтый Ручеёк'
+about_us = 'We are Жёлтый Ручеёк'
 
-address = 'Москва, ул. Константина Царёва, д. 12к1\n' \
-          'Почтовый индекс: 420032'
+address = 'Moscow, Konstantin Tsarev str., 12k1\n' \
+          'Post index: 420032'
 
-contacts = 'Почта: shueppsh987@gmail.com\n' \
-           'Телефон: +79999999999\n' \
+contacts = 'Email: shueppsh987@gmail.com\n' \
+           'Phone: +79999999999\n' \
            'tg: @themishota'
 
 
-song = 'Скинуть песню'
-video = 'Скинуть видео'
-photo = 'Скинуть фото'
+song = 'Send the song'
+video = 'Send the video'
+photo = 'Send the photo'

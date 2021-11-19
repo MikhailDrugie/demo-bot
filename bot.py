@@ -61,25 +61,25 @@ async def process_help_command(message: types.Message):
 
 @dp.message_handler(Text(equals=messages.photo))
 async def process_photo_command(message: types.Message):
-    await message.reply("Наша гордость:")
+    await message.reply("Our pride:")
     await bot.send_photo(message.from_user.id, PHOTO)
 
 
 @dp.message_handler(Text(equals=messages.song))
 async def process_audio_command(message: types.Message):
-    await message.reply("Наш гимн:")
+    await message.reply("Our hymn:")
     await bot.send_voice(message.from_user.id, AUDIO)
 
 
 @dp.message_handler(Text(equals=messages.video))
 async def process_video_command(message: types.Message):
-    await message.reply("Наш тикток:")
+    await message.reply("The video:")
     await bot.send_video(message.from_user.id, VIDEO)
 
 
 @dp.message_handler()
 async def process_message(message: types.Message):
-    await message.reply(f'И тебе \"{message.text}\", {message.from_user["first_name"]}!')
+    await message.reply(f'\"{message.text}\" to you too, {message.from_user["first_name"]}!')
 
 
 if __name__ == '__main__':
